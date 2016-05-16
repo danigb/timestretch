@@ -1,8 +1,9 @@
 
-module.exports = function play (ac, buffer) {
-  if (arguments.length === 1) return function (b) { return play(ac, b) }
-  var source = ac.createBufferSource()
-  source.buffer = buffer
-  source.connect(ac.destination)
-  source.start()
+module.exports = function (ac) {
+  return function play (when, duration, buffer) {
+    var source = ac.createBufferSource()
+    source.buffer = buffer
+    source.connect(ac.destination)
+    source.start(when, 0, duration)
+  }
 }
