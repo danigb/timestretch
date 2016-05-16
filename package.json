@@ -1,0 +1,31 @@
+{
+  "name": "timestretch",
+  "version": "0.1.0",
+  "description": "Simple and fast timestretching for javascript",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "dist": "mkdir -p dist/ && browserify lib/index.js | uglifyjs > dist/timestretch.min.js && ls -hall dist/",
+    "prepublish": "npm test &&  npm run dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danigb/timestretch"
+  },
+  "keywords": [
+    "audio",
+    "timestretch",
+    "webaudio"
+  ],
+  "author": "danigb <danigb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danigb/timestretch/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "mocha": "2",
+    "uglifyjs": "^2.4.10"
+  }
+}
