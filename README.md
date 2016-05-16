@@ -4,6 +4,14 @@
 
 Yet another library to timestretch audio on the browser.
 
+The focus of this implementaion is to make the code easy to understand. There will be examples of how to:
+
+- Pitchshift an audio buffer
+- Perform pitchshifting using a webworker
+- Realtime pitchshifting of an audio source
+
+__This is work in progress__
+
 ## (FA)Q
 
 __Are other implementations available?__
@@ -22,7 +30,7 @@ And probably more...
 
 __Which one should I use?__
 
-I don't know by experiencie, but @echo66 repositories looks promising.
+I don't know by experiencie, but [@echo66](https://github.com/echo66) projects looks promising.
 
 __Then, why?__
 

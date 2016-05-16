@@ -24,6 +24,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "audio-loader": "^0.3.0",
     "browserify": "^13.0.1",
     "mocha": "2",
     "uglifyjs": "^2.4.10"
