@@ -7,7 +7,8 @@
     "test": "mocha",
     "dist": "mkdir -p dist/ && browserify lib/index.js | uglifyjs > dist/timestretch.min.js && ls -hall dist/",
     "prepublish": "npm test &&  npm run dist",
-    "offline": "watchify examples/src/offline.js -o examples/js/offline-demo.js"
+    "demo-offline": "watchify examples/src/offline.js -o examples/js/offline-demo.js",
+    "demo-overlap": "watchify examples/src/overlap.js -o examples/js/overlap-demo.js"
   },
   "repository": {
     "type": "git",
