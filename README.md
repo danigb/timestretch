@@ -10,6 +10,8 @@ The focus of this implementaion is to make the code easy to understand. There wi
 - Perform pitchshifting using a webworker
 - Realtime pitchshifting of an audio source
 
+This is not the best implementation if you're looking for sound quality and/or performance (see FAQ).
+
 __This is work in progress__
 
 ## (FA)Q
@@ -35,6 +37,17 @@ I don't know by experiencie, but [@echo66](https://github.com/echo66) projects l
 __Then, why?__
 
 Because I want to learn.
+
+## Resources
+
+You can read about OLA algorithms here:
+
+- http://www.surina.net/article/time-and-pitch-scaling.html
+- https://github.com/martijnvogten/timestretch/wiki/Basic-Time-Stretching-(that-sounds-remarkably-well)
+- https://github.com/echo66/time-stretch-wac-article/blob/master/ts-ps-wac.pdf
+
+In fact, this implementation follow close the first explanation.
+
 
 ## License
 

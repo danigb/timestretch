@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "dist": "mkdir -p dist/ && browserify lib/index.js | uglifyjs > dist/timestretch.min.js && ls -hall dist/",
-    "prepublish": "npm test &&  npm run dist"
+    "prepublish": "npm test &&  npm run dist",
+    "offline": "watchify examples/src/offline.js -o examples/js/offline-demo.js"
   },
   "repository": {
     "type": "git",
