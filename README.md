@@ -18,17 +18,16 @@ __This is work in progress__
 
 __Are other implementations available?__
 
-Yes, a lot:
+Yes, some of them:
 - https://github.com/sebpiq/paulstretch.js
 - https://github.com/echo66/OLA-TS.js
 - https://github.com/echo66/PhaseVocoderJS
 - https://github.com/Infinity/Kali
-
-And pitch shifting:
+- https://github.com/0xfe/vexwarp
 - https://github.com/mikolalysenko/pitch-shift
 - https://github.com/GTCMT/pitchshiftjs
 
-And probably more...
+And there are probably more...
 
 __Which one should I use?__
 
@@ -40,14 +39,10 @@ Because I want to learn.
 
 ## Resources
 
-You can read about OLA algorithms here:
-
-- http://www.surina.net/article/time-and-pitch-scaling.html
-- https://github.com/martijnvogten/timestretch/wiki/Basic-Time-Stretching-(that-sounds-remarkably-well)
-- https://github.com/echo66/time-stretch-wac-article/blob/master/ts-ps-wac.pdf
-
-In fact, this implementation follow close the first explanation.
-
+- Time Stretching And Pitch Shifting of Audio Signals – An Overview: http://blogs.zynaptiq.com/bernsee/time-pitch-overview/
+- Time and pitch scaling in audio processing: http://www.surina.net/article/time-and-pitch-scaling.html
+- Basic Time Stretching (that sounds remarkably well): https://github.com/martijnvogten/timestretch/wiki/Basic-Time-Stretching-(that-sounds-remarkably-well)
+- Time Stretching & Pitch Shifting with the Web Audio API. Where are we at? (pdf): https://github.com/echo66/time-stretch-wac-article/blob/master/ts-ps-wac.pdf
 
 ## License
 
