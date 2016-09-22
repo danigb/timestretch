@@ -43,6 +43,9 @@ Because I want to learn.
 - Time and pitch scaling in audio processing: http://www.surina.net/article/time-and-pitch-scaling.html
 - Basic Time Stretching (that sounds remarkably well): https://github.com/martijnvogten/timestretch/wiki/Basic-Time-Stretching-(that-sounds-remarkably-well)
 - Time Stretching & Pitch Shifting with the Web Audio API. Where are we at? (pdf): https://github.com/echo66/time-stretch-wac-article/blob/master/ts-ps-wac.pdf
+- Free small FFT in multiple languages: https://www.nayuki.io/page/free-small-fft-in-multiple-languages
+- FFT in javascript: https://thebreakfastpost.com/2015/10/18/ffts-in-javascript/
+- http://code.almeros.com/experimenting-with-firefox-audio-api#.V-LzSJOLTMU
 
 ## License
 

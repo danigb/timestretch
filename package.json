@@ -24,11 +24,11 @@
   "bugs": {
     "url": "https://github.com/danigb/timestretch/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "audio-context": "^0.1.0"
+  },
   "devDependencies": {
-    "audio-loader": "^0.3.0",
-    "browserify": "^13.0.1",
-    "mocha": "2",
-    "uglifyjs": "^2.4.10"
+    "audio-loader": "^0.6.0",
+    "fetch-as-audio-buffer": "^0.10.1"
   }
 }
